@@ -94,7 +94,7 @@
     getInfo() {
       return {
         id: "localstorage",
-        name: Scratch.translate("Local Storage"),
+        name: Scratch.translate("Modified Local storage"),
         docsURI: "https://extensions.turbowarp.org/local-storage",
         blocks: [
           {
