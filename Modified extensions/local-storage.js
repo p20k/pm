@@ -94,13 +94,13 @@
     getInfo() {
       return {
         id: "localstorage",
-        name: Scratch.translate("Local Storage"),
+        name: Scratch.translate("Local Storage modified"),
         docsURI: "https://extensions.turbowarp.org/local-storage",
         blocks: [
           {
             opcode: "setProjectId",
             blockType: Scratch.BlockType.COMMAND,
-            text: Scratch.translate("set storage namespace ID to [ID]"),
+            text: Scratch.translate("Set storage namespace ID to [ID]"),
             arguments: {
               ID: {
                 type: Scratch.ArgumentType.STRING,
@@ -111,7 +111,7 @@
           {
             opcode: "get",
             blockType: Scratch.BlockType.REPORTER,
-            text: Scratch.translate("get key [KEY]"),
+            text: Scratch.translate("Get key [KEY]"),
             arguments: {
               KEY: {
                 type: Scratch.ArgumentType.STRING,
@@ -122,7 +122,7 @@
           {
             opcode: "set",
             blockType: Scratch.BlockType.COMMAND,
-            text: Scratch.translate("set key [KEY] to [VALUE]"),
+            text: Scratch.translate("Set key [KEY] to [VALUE]"),
             arguments: {
               KEY: {
                 type: Scratch.ArgumentType.STRING,
@@ -137,18 +137,18 @@
           {
             opcode: "remove",
             blockType: Scratch.BlockType.COMMAND,
-            text: Scratch.translate("delete key [KEY]"),
+            text: Scratch.translate("Delete key [KEY]"),
             arguments: {
               KEY: {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: Scratch.translate("score"),
+                defaultValue: Scratch.translate("qwerty"),
               },
             },
           },
           {
             opcode: "removeAll",
             blockType: Scratch.BlockType.COMMAND,
-            text: Scratch.translate("delete all keys"),
+            text: Scratch.translate("Delete all keys"),
           },
           {
             opcode: "whenChanged",
