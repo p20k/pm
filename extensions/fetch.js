@@ -5,7 +5,7 @@
 // Souce code: extensions.turbowarp.org/fetch.js
 // WARNING: This extension made for me and all default values be filled with link to my scripts
 
-/* generated l10n code */Scratch.translate.setup({"de":{"_Fetch":"Internetquests"},"fi":{"_Fetch":"Datan haku"},"nb":{"_Fetch":"Hent"},"ru":{"_Fetch":"Поимка"},"zh-cn":{"_Fetch":"请求API"}});/* end generated l10n code */(function (Scratch) {
+{
   "use strict";
 
   class Fetch {
