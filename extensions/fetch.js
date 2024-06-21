@@ -22,11 +22,7 @@
               URL: {
                 type: Scratch.ArgumentType.STRING,
                 defaultValue: "https://raw.githubusercontent/p20k/pm/main/scripts/random.js",
-              },
-              {
-            opcode: "get",
-            blockType: Scratch.BlockType.REPORTER,
-            text: "Get [URL]",
+                },
               },
             },
           },
