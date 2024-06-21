@@ -30,7 +30,7 @@
       };
     }
 
-    get(args) {
+    fetch(args) {
       return Scratch.fetch(args.URL)
         .then((r) => r.text())
         .catch(() => "");
