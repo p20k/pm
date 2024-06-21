@@ -4,4 +4,4 @@ function generateuuid() {
         return v.toString(16);
     });
 }
-generateuuid()
+return generateuuid()
