@@ -1,4 +1,3 @@
-
 (async function(Scratch) {
     const variables = {};
     const blocks = [];
@@ -146,11 +145,11 @@
     blocks.push({
         opcode: "alertblock",
         blockType: Scratch.BlockType.COMMAND,
-        text: "JS Alert [alertblocktext]",
+        text: "JS Alert dialog with text [alertblocktext]",
         arguments: { // ALERT BLOCK
             "alertblocktext": {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Hello World!',
+                defaultValue: 'Hi!',
             },
         },
         disableMonitor: true,
@@ -163,11 +162,11 @@
     blocks.push({
         opcode: "promptblock",
         blockType: Scratch.BlockType.REPORTER,
-        text: "JS Prompt with text [promptblocktext] and return answer",
+        text: "JS Prompt dialog with text [promptblocktext]",
         arguments: { // PROMPT BLOCK
             "promptblocktext": {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Hello World!',
+                defaultValue: 'Hi!',
             },
         },
         disableMonitor: true,
@@ -180,11 +179,11 @@
     blocks.push({
         opcode: "confirmblock",
         blockType: Scratch.BlockType.BOOLEAN,
-        text: "JS Confirm with text [confirmblocktext]",
+        text: "JS Confirm dialog with text [confirmblocktext]",
         arguments: { // CONFIRM BLOCK
             "confirmblocktext": {
                 type: Scratch.ArgumentType.STRING,
-                defaultValue: 'Hello World!',
+                defaultValue: 'Hi!',
             },
         },
         disableMonitor: true,
