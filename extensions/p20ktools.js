@@ -1,7 +1,6 @@
 /*
    This extension was made with TurboBuilder!
    https://turbobuilder-steel.vercel.app/
-   RUN ONLY ON TURBOWARP
 */
 (async function(Scratch) {
     const variables = {};
@@ -138,7 +137,7 @@
         getInfo() {
             return {
                 "id": "p20ktools",
-                "name": "P20K Tools",
+                "name": "P20K's Tools",
                 "color1": "#ff8000",
                 "color2": "#a8421c",
                 "tbShow": true,
@@ -161,7 +160,7 @@
         isEdgeActivated: false
     });
     Extension.prototype["alertblock"] = async (args, util) => {
-        return prompt(args["alertblocktext"])
+        alert(args["alertblocktext"])
     };
 
     blocks.push({
@@ -195,7 +194,7 @@
         isEdgeActivated: false
     });
     Extension.prototype["confirmblock"] = async (args, util) => {
-        return prompt(args["confirmblocktext"])
+        return confirm(args["confirmblocktext"])
     };
 
     Scratch.extensions.register(new Extension());
