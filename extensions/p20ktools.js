@@ -1,3 +1,4 @@
+
 (async function(Scratch) {
     const variables = {};
     const blocks = [];
@@ -162,7 +163,7 @@
     blocks.push({
         opcode: "promptblock",
         blockType: Scratch.BlockType.REPORTER,
-        text: "JSPrompt for ask [promptblocktext] and return answer",
+        text: "JS Prompt with text [promptblocktext] and return answer",
         arguments: { // PROMPT BLOCK
             "promptblocktext": {
                 type: Scratch.ArgumentType.STRING,
