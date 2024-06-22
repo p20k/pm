@@ -1,6 +1,7 @@
 /*
    This extension was made with TurboBuilder!
    https://turbobuilder-steel.vercel.app/
+   RUN ONLY ON TURBOWARP
 */
 (async function(Scratch) {
     const variables = {};
